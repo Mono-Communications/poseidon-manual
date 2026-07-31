@@ -26,7 +26,7 @@ Poseidon 통합 매뉴얼 v1 — © ㈜모노커뮤니케이션즈
 
 <div data-with-frame="true"><figure><img src=".gitbook/assets/ChatGPT Image 2026년 7월 31일 오후 03_50_23.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
-### <mark style="color:cyan;">감시 대상 서비스 4종</mark>
+### <mark style="color:purple;">감시 대상 서비스 4종</mark>
 
 화면 곳곳에서 이 4개가 색이 다른 칩으로 표시됩니다.
 
@@ -37,7 +37,7 @@ Poseidon 통합 매뉴얼 v1 — © ㈜모노커뮤니케이션즈
 | **CS**      | 데스크톱 메시징 클라이언트       | 머신 UUID·OS·앱 버전, 발송 계정 식별자           |
 | **M2X**     | 레거시 제품               | 자체 신호가 없어 **Cypher 사이드카**로 상태를 추정    |
 
-### <mark style="color:cyan;">Poseidon이 보는 것 / 보지 않는 것</mark>
+### <mark style="color:purple;">Poseidon이 보는 것</mark>&#x20;
 
 | 구분        | 내용                | 한계                                  |
 | --------- | ----------------- | ----------------------------------- |
@@ -49,7 +49,7 @@ Poseidon 통합 매뉴얼 v1 — © ㈜모노커뮤니케이션즈
 **Poseidon은 "발송이 잘 되는지"를 보지 않습니다.** 엔진의 생존과 예외만 봅니다. 화면이 전부 정상(UP·오류 없음)인데 실제 발송이 안 되는 상황은 실제로 가능합니다 ([16. 플레이북 G](part-4/16.-playbook.md)).
 {% endhint %}
 
-### <mark style="color:cyan;">통신 방향</mark>
+### <mark style="color:purple;">통신 방향</mark>
 
 {% hint style="success" %}
 통신은 **고객사 → Poseidon 단방향(Outbound)** 입니다. Poseidon이 고객사 서버로 접속하는 경로는 **없습니다.** 인바운드 포트 개방도, VPN도 필요 없습니다.
@@ -62,12 +62,12 @@ Poseidon 통합 매뉴얼 v1 — © ㈜모노커뮤니케이션즈
 Poseidon을 처음 본다면 **Part 1. 시작하기** 부터 따라가세요. 접속·계정부터 화면 구조까지 단계별로 안내합니다.\
 운영 중에는 **Part 2. 화면별 사용법 / Part 3. 동작 원리 이해하기 / Part 4. 고객 응대**를 reference로 활용합니다.
 
-### <mark style="color:cyan;">Part 1. 시작하기</mark>
+### <mark style="color:purple;">Part 1. 시작하기</mark>
 
 * [1. 접속과 계정](part-1/1.-access.md)
 * [2. 화면 구조 한눈에 보기](part-1/2.-layout.md)
 
-### <mark style="color:cyan;">Part 2. 화면별 사용법</mark>
+### <mark style="color:purple;">Part 2. 화면별 사용법</mark>
 
 * [3. 대시보드](part-2/3.-dashboard.md)
 * [4. 인스턴스](part-2/4.-instances.md)
@@ -77,13 +77,13 @@ Poseidon을 처음 본다면 **Part 1. 시작하기** 부터 따라가세요. �
 * [8. 사용자 (ADMIN)](part-2/8.-admin-users.md)
 * [9. 설정](part-2/9.-settings.md)
 
-### <mark style="color:cyan;">Part 3. 동작 원리 이해하기</mark>
+### <mark style="color:purple;">Part 3. 동작 원리 이해하기</mark>
 
 * [10. 시스템 구성과 데이터 흐름](part-3/10.-architecture.md)
 * [11. 상태 판정 기준](part-3/11.-status.md)
 * [12. 오류 수집 구조와 Cypher](part-3/12.-errors.md)
 
-### <mark style="color:cyan;">Part 4. 고객 응대</mark>
+### <mark style="color:purple;">Part 4. 고객 응대</mark>
 
 * [13. 고객 온보딩 절차](part-4/13.-onboarding.md)
 * [14. 고객 설명 스크립트](part-4/14.-script.md)
