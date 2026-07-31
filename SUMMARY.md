@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Poseidon 소개](README.md)
+* [Poseidon 통합 매뉴얼](README.md)
 
 ## Part 1. 시작하기
 
